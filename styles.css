@@ -53,6 +53,14 @@ header > div:last-child{
     font-size: 35px
 }
 
+.home > div > .fa-bars {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
 /* SERVICES */
 
 .services {

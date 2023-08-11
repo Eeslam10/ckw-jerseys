@@ -1,0 +1,40 @@
+@media only screen and (max-width: 700px) {
+    header {
+        display: none;
+    }
+
+    .home > div > p{
+        display: none;
+    }
+
+    .home > div {
+       max-width: 100vw;
+       justify-content: space-between;
+       align-items: center;
+       padding: 1rem;
+       margin: 1rem 0;
+  }
+
+    .home > div > h1{
+        font-size: 30px;
+    }
+
+    .home > div > p, h2 {
+        display: none;
+    }
+
+    .home > div > .fa-bars {
+        display: block; 
+    }
+
+    .hidden {
+        display: flex;
+        justify-content: center;
+        gap: .5rem;
+        background-color:  rgb(66, 64, 64);
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+  }

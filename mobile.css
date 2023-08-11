@@ -30,11 +30,261 @@
     .hidden {
         display: flex;
         justify-content: center;
-        gap: .5rem;
+        gap: 1rem;
         background-color:  rgb(66, 64, 64);
         color: white;
         font-size: 18px;
         font-weight: bold;
+        padding: 1.5rem;
+    }
+
+    .services {
+        display: none;
+    }
+
+    main {
+        height: 450px;
+    }
+
+    main > .welcome {
+        margin: 0;
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .welcome > p:first-child {
+        font-size: 18;
+        color: red;
+        margin: 2rem 0;
+    }
+
+    .welcome > p:nth-child(2) {
+        font-size: 33px;
+        margin: 2rem 0;
+        /* line-height: 1.3; */
+    }
+
+    .welcome > p:nth-child(3){
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+        margin: 0;
+    }
+
+    .welcome > button {
+        margin: 2rem 0;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    .ourProducts {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .ourProducts > div {
+        flex-direction: column;
+    }
+
+    .ourProducts > div > p {
+       min-width: 100%;
+       margin: 1rem 0;
+    }
+
+    .collection {
+        gap: 1.5rem
+    }
+
+    .collection > figure > img{
+        width: 100%;
+        height: 200px;
+    }
+
+    .collection > figure > figcaption {
+        padding: 0;
+    }
+
+    .collection > figure > p {
+        margin: 1.5rem auto;
+        padding: 0;
+    }
+
+    .theProducts {
+        padding: .5rem;
+    }
+
+    .theProducts > .boutique {
+        padding: 0;
+    }
+
+    .theProducts > .boutique, .kits {
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .theProducts > .boutique > div:first-child {
+        width: 100%;
+        margin: 0;
+    }
+
+    .theProducts > .kits > div:first-child {
+        width: 100%;
+        margin: 0;
+    }
+
+    .theProducts > .kits > div:first-child > p:first-child {
+        font-size: 30px;
+        margin:  0;
+    }
+
+    .theProducts > .boutique > div:first-child > p:first-child {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 1.5rem 0;
+    }
+
+    .theProducts > .boutique > div:first-child > p:last-child{
+        margin: 2rem 0;
+    }
+
+    .theProducts > .kits > div:first-child > p:last-child{
+        margin: 2rem 0;
+    }
+
+    
+    .theProducts > .kits > div:last-child {
+        width: 100%;
+        margin: 0;
+    }
+
+    .theProducts > .boutique > div:last-child{
+        min-width: 100%;
+        margin: 0;
+        padding: .5rem;
+    }
+
+    .theProducts > .boutique > div:last-child > img {
+        height: 200px;
+        width: 100%;
+    }
+    .theProducts > .kits > div:last-child > img {
+        height: 200px;
+        width: 100%;
+    }
+
+    /* TESTIMONIAL */
+
+    .testimonial {
+        padding: 01rem;
+    }
+
+    .testimonial > p{
+        font-size: 30px;
+        margin-top: 5rem;
+        color:black;
+    }
+
+    .testimonialBox {
+        max-width: 100%;
+        margin-top: 3rem;
+        border: solid 1px white;
+        padding: 1rem;
     }
     
+    .testimonialBox .fa-star {
+        color: gold;
+    }
+    
+    .testimonial > div > p {
+        font-size: 22px;
+        width: 100%;
+        margin: 1rem auto;
+    }
+
+    /* ARTICLE */
+
+    article {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .about {
+        text-align: center;
+        width: 100%;
+    }
+
+    .about > button {
+        padding: 1rem;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .aboutSide {
+       display: none;
+    }
+
+    /* reachUs */
+
+    .reachUs {
+        flex-direction: column;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .reachUs > .reach {
+        width: 100%;
+        padding: .5rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .reachUs > .reach > p:first-child {
+        font-size: 45px;
+        margin-bottom: 1rem;
+    }
+    
+    .reachUs > .reach > p:nth-child(2) {
+        font-size: 20px;
+    }
+
+    
+    .reachUs > form {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    /* footer */
+
+    footer {
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+
+    footer > div:first-child > div {
+        justify-content: center;
+        gap: 1rem ;
+    }
+
+    footer > div:first-child {
+        width: 100%;
+        padding: 1rem;
+    }
+    
+    footer > div:nth-child(2) {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    /* LAST */
+
+.last {
+    background-color: black;
+    padding: 1rem;
+}
+
+
+
   }

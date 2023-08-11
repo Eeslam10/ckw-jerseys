@@ -20,7 +20,7 @@ header {
 
 }
 
-header > div >  .fa-location-dot , .fa-whatsapp, .fa-facebook, .fa-instagram {
+header > div >  .fa-location-dot , .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-twitter {
     color: white;
 }
 
@@ -63,7 +63,7 @@ header > div:last-child{
 
 /* SERVICES */
 
-.services {
+.services >ul{
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -71,7 +71,7 @@ header > div:last-child{
     padding: 1rem;
 }
 
-.services > a {
+.services > ul > li > a {
     text-decoration: none;
     color: white;
 }

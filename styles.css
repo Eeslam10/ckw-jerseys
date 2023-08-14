@@ -61,29 +61,48 @@ header > div:last-child{
     display: none;
 }
 
-/* SERVICES */
 
-.services >ul{
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    background-color:  rgb(66, 64, 64);
-    padding: 1rem;
-}
 
-.services > ul > li {
-    list-style: none;
-}
 
-.services > ul > li > a {
-    text-decoration: none;
+/* TOPNAV */
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+    display: none;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+    background-color: #333;
+  }
+
+  .topnav > .active {
     color: white;
-}
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 28px;
+    display: block;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px 20px 0 0;
+  }
 
-.services > ul > li > a:hover {
-    text-decoration: underline;
-    font-weight: bold;
-}
 
 /* MAIN */
 
@@ -102,7 +121,7 @@ main > .welcome {
 }
 
 .welcome > p:first-child {
-    color: rgba(255, 0, 0, 0.322);
+    color: red;
     font-size: 25px;
     margin-top: 3rem;
     margin-bottom: 1rem;
